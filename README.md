@@ -14,6 +14,8 @@ The framewwork is implemented on top of [GraphNAS](https://github.com/GraphNAS/G
 #### Requirements
 Latest version of Pytorch-geometric(PyG) is required. More details can be found in [here](https://github.com/rusty1s/pytorch_geometric)
 
+    Python == 3.7.4   Pytorch-geometric>=1.6.3   PyTorch == 1.6.0 
+
 #### Architecture Search
 Search a 3-layer GNN on Cora dataset based on the designed search space, please run:
     
