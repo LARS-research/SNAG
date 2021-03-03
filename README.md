@@ -15,7 +15,6 @@ Latest version of Pytorch-geometric(PyG) is required. More details can be found 
 #### Architecture Search
 Search a 3-layer GNN on Cora dataset based on the designed search space, please run:
     
-    (change folder name......)
     python -m rlctr.main  --dataset Cora   --layers_of_child_model 3  --shared_initial_step 10   --shared_params True  #SNAG-WS
     python -m rlctr.main  --dataset Cora   --layers_of_child_model 3  #SNAG
 
